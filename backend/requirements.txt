@@ -1,5 +1,4 @@
-fastapi
-uvicorn
-supabase
-python-dotenv
-pyjwt
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
+python-dotenv==1.0.1
+supabase==2.3.4

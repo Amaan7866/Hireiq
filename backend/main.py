@@ -13,7 +13,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Replace with your Vercel URL in production
+    allow_origins=["https://hireiq-mu.vercel.app"],  # Replace with your Vercel URL in production
     allow_methods=["*"],
     allow_headers=["*"],
 )
